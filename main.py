@@ -1,0 +1,2 @@
+def total():
+    print("Waaholoooo")
