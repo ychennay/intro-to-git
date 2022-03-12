@@ -1,4 +1,4 @@
 SELECT state, COUNT(*)
 FROM consumers
-WHERE country = 'US'
+WHERE country <> 'CAN'
 GROUP BY state
